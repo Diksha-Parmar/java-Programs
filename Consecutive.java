@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Consecutive{
+	public boolean consec_num(int a , int b , int c){
+		if(b==(a+1) && c==(b+1)){
+			System.out.print("Entered number is Consecutive:");
+			return true;
+		}
+		else{
+			System.out.print("Entered number is consecutive:");
+			return false;
+		}
+     }
+	public static void main(String args[]){
+		int d,e,f;
+		Scanner s1 = new Scanner(System.in);
+		System.out.print("Enter first number value:");
+		d=s1.nextInt();
+		System.out.print("Enter second number value:");
+		e=s1.nextInt();
+		System.out.print("Enter third number value:");
+		f=s1.nextInt();
+			
+		Consecutive obj = new Consecutive();
+		System.out.println(obj.consec_num(d,e,f));
+	}
+	
+}
