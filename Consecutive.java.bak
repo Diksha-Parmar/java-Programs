@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class program5{
+public class Consecutive{
 	public boolean consec_num(int a , int b , int c){
 		if(b==(a+1) && c==(b+1)){
 			System.out.print("Entered number is Consecutive:");
@@ -12,16 +12,16 @@ public class program5{
      }
 	public static void main(String args[]){
 		int d,e,f;
-		Scanner sc = new Scanner(System.in);
+		Scanner s1 = new Scanner(System.in);
 		System.out.print("Enter first integer value:");
-		d=sc.nextInt();
+		d=s1.nextInt();
 		System.out.print("Enter second integer value:");
-		e=sc.nextInt();
+		e=s1.nextInt();
 		System.out.print("Enter third integer value:");
-		f=sc.nextInt();
+		f=s1.nextInt();
 			
-		Program5 obj = new Program5();
-		System.out.println(obj.Program5(d,e,f));
+		Consecutive obj = new Consecutive();
+		System.out.println(obj.consec_num(d,e,f));
 	}
 	
 }

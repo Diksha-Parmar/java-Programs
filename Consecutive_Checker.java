@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class program5{
+public class Consecutive_Checker{
 	public boolean consec_num(int a , int b , int c){
 		if(b==(a+1) && c==(b+1)){
-			System.out.print("Entered number is Consecutive:");
+			System.out.print("Entered integers is Consecutive:");
 			return true;
 		}
 		else{
-			System.out.print("Entered number is consecutive:");
+			System.out.print("Entered integers is consecutive:");
 			return false;
 		}
      }
@@ -20,8 +20,8 @@ public class program5{
 		System.out.print("Enter third integer value:");
 		f=sc.nextInt();
 			
-		Program5 obj = new Program5();
-		System.out.println(obj.Program5(d,e,f));
+		Consecutive_Checker obj = new Consecutive_Checker();
+		System.out.println(obj.consec_num(d,e,f));
 	}
 	
 }
