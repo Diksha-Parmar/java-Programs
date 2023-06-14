@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Set{
-	public static void main(String args[]){
+	  public static void main(String[] args){
 	  Scanner s1 = new Scanner(System.in);
       int n;
 	  int evensum = 0;

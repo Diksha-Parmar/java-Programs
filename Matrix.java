@@ -25,7 +25,7 @@ public class Matrix{
 		for(int i=0;i<row2;i++){
 			for(int j=0;j<col2;j++){
 			System.out.print("Enter the values at position ["+i+"]["+j+"] :" );
-			arr2[i][j]=sc.nextInt();
+			arr2[i][j]=s1.nextInt();
 			}
 		
 		} 
