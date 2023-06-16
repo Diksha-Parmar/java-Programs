@@ -1,15 +1,15 @@
 //Create a class with a method that prints "This is parent class" and its subclass with another method that prints "This is child class". 
 //Now, create an object for each of the class and call1 - method of parent class by object of parent class.
 class Parent{
-	String parent = "This is parent class";
+	String parent = "This is Parent class";
 	public void getInfo()
 	{
 		System.out.println(parent);
 	}
 }
 
-class ChildClass extends Parent{
-	String child = "This is child class";
+class Child extends Parent{
+	String child = "This is Child class";
 	public void getValue()
 	{
 		System.out.println(child);
@@ -17,11 +17,11 @@ class ChildClass extends Parent{
 }
 public class Inheritance2{
 	public static void main(String args[]){
-		Parent parentclass = new Parent();
-		parentclass.getInfo();
-		ChildClass childclass = new ChildClass();
-		childclass.getValue();
-		childclass.getInfo();
+		Parent obj = new Parent();
+		obj.getInfo();
+		Child obj1 = new Child();
+		obj1.getValue();
+		obj1.getInfo();
 		
 	}
 }

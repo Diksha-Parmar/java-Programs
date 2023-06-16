@@ -1,0 +1,42 @@
+//Create a class named 'Shape' with a method to print "This is shape". 
+//Then create two other classes named 'Rectangle', 'Circle' inheriting the Shape class, both having a method to print "This is rectangular shape" 
+//and "This is circular shape" respectively. Create a subclass 'Square' of 'Rectangle' having a method to print "Square is a rectangle".
+ //Now call the method of 'Shape' and 'Rectangle' class by the object of 'Square' class.
+ 
+ 
+ class Shape{
+	 public void ShapeMethod()
+	 {
+		 String a ="This is Shape";
+		 System.out.println(a);
+	 }
+ }
+ class Rectangle extends Shape{
+	 public void RectangleMethod()
+	 {
+		 String b = "This is Rectangular shape";
+		 System.out.println(b);
+	 }
+ }
+ class Circle extends Shape{
+	 public void CircleMethod()
+	 {
+		 String c = "This is Circular shape";
+		 System.out.println(c);
+	 }
+ }
+ class Square extends Rectangle{
+	 public void SquareMethod()
+	 {	
+		 String d = "Square is Rectangle";
+		 System.out.println(d);
+		  
+	 }
+ }
+ public class Inheritance3{
+	 public static void main(String args[]){
+		 Square sq = new Square();
+		 sq.ShapeMethod();
+		 sq.RectangleMethod();
+	 }
+ }
