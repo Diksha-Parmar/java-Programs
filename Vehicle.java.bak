@@ -1,0 +1,49 @@
+import java.util.Scanner;
+public class Vehicle{
+	String BrandName;
+	int Model_Number;
+	int Year;
+	Scanner sc = new Scanner(System.in);
+	public void getInfo(){
+		System.out.println("Enter Brand Name::");
+		BrandName = sc.nextLine();
+		System.out.println("Enter Model Number::");
+		Model_Number = sc.nextInt();
+		System.out.println("Enter the Year::");
+		Year = sc.nextInt();
+	}
+		public class Truck extends Vehicle{
+	public void FuelType(){
+		String fuel = "Diesel";
+		System.out.println("Enter Fuel Type:: " + fuel);
+	}
+}
+public class Car extends Vehicle{
+	public void FuelType(){
+		String fuel = "Petrol";
+		System.out.println("Enter Fuel Type::" + fuel);
+	}
+}
+public class MotorCycle extends Vehicle{
+public void FuelType(){
+		String fuel = "Petrol";
+		System.out.println("Enter Fuel Type::" + fuel);
+	}
+}public class Inheritance{
+public static void main(String args[]){
+Vehicle vehicle=new Vehicle();
+vehicle.getInfo();
+Truck truck = new Truck();
+truck.FuelType();
+Car obj=new Car();
+obj.FuelType();
+MotorCycle motorcycle=new MotorCycle();
+motorcycle.FuelType();
+}
+}
+}
+
+	
+	
+
+	

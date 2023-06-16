@@ -1,0 +1,2 @@
+//Create a class with a method that prints "This is parent class" and its subclass with another method that prints "This is child class". 
+//Now, create an object for each of the class and call1 - method of parent class by object of parent class

@@ -1,0 +1,31 @@
+class Rectangle{
+			Rectangle(int l , int b){
+			int length = a;
+			int breadth = b;
+			int area= length*breadth;
+			System.out.println(" Area of Rectangle : " + area);
+		
+		}
+}
+		class Square extends Rectangle{
+			Square(int length){
+				super(a,a);
+				int length = a;
+				int area = (length*length);
+		     System.out.println("Area of Square : " + area);
+			 
+			}
+		}
+		public class Shape2{
+			public static void main(String args[]){
+				Square sq = new Square(2);
+			}
+		}
+		
+
+				
+			
+			
+		
+			
+				
