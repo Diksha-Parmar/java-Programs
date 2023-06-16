@@ -1,7 +1,7 @@
 // Write a Java program to create a class known as Person with methods called getFirstName() and getLastName().
 //Create a subclass called Employee that adds a new method named getEmployeeId().
 import java.util.Scanner;
-public class Person{
+ class Person{
 	String FirstName,LastName;
 	Scanner sc = new Scanner(System.in);
 	public void getFirstName(){
@@ -13,4 +13,6 @@ public class Person{
 		System.out.println("Enter Last Name :: ");
 		LastName = sc.nextLine();
 	}
-}
+ }
+ 
+

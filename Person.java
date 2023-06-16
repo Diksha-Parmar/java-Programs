@@ -14,5 +14,18 @@ import java.util.Scanner;
 		LastName = sc.nextLine();
 	}
  }
+ class Employee extends Person{
+	public void getEmployeeId(){
+		System.out.println("Enter the EmployeeId:");
+		int EmployeeId = sc.nextInt();
+	}
+	public class Inheritance4{
+	public static void main(String args[]){
+		Employee obj = new Employee();
+		obj.getFirstName();
+		obj.getLastName();
+		obj.getEmployeeId();
+	}
+}
  
 
