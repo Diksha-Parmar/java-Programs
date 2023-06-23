@@ -23,19 +23,19 @@ public class AddAmount{
 	
 	public static void main(String []args){
 		Scanner s = new Scanner(System.in);
-		int amount;
+		int amt;
 		
 		do{
 			System.out.println("Enter the amount you want to enter::");
 			amt=s.nextInt();
-			if(amount>0){
-				AddAmount obj = new AddAmount(amount);
+			if(amt>0){
+				AddAmount obj = new AddAmount(amt);
 				amt=amt+amount; 
 			}
 			else{
 				System.out.println("Your final balance is::" + amount);
 			}
-		}while(amount!=0);
+		}while(amt!=0);
 		
 		
 	}

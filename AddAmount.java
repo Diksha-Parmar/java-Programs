@@ -22,12 +22,12 @@ public class AddAmount{
 	}
 	
 	public static void main(String []args){
-		Scanner s = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		int amt;
 		
 		do{
 			System.out.println("Enter the amount you want to enter::");
-			amt=s.nextInt();
+			amt=sc.nextInt();
 			if(amt>0){
 				AddAmount obj = new AddAmount(amt);
 				amt=amt+amount; 

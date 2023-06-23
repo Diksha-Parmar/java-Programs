@@ -16,7 +16,7 @@ class Child2 extends Parent1{
 		System.out.println("This is second subclass");
 	}
 }
-public class ParentClass1{
+public class Parent1{
 	public static void main(String args[]){
 		Child1 obj1 = new Child1();
 		Child2 obj2 = new Child2();
