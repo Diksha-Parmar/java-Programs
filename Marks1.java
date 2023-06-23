@@ -38,9 +38,9 @@ class B extends Marks1{
 }
 public class Marks1{
 	public static void main(String args[]){
-		A a = new A(93,47,70);
-		B b = new B(93,89,80,90);
-		System.out.println("Percentage of  A::" +a.getPercentage());
-		System.out.println("Percentage of  B::" +b.getPercentage());
+		A obj1 = new A(93,47,70);
+		B obj2 = new B(93,89,80,90);
+		System.out.println("Percentage of  A::" +obj1.getPercentage());
+		System.out.println("Percentage of  B::" +obj2.getPercentage());
 	}
 }
